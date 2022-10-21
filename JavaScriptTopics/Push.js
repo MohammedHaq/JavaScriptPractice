@@ -6,3 +6,6 @@ var pushArray = ["Mohammed", "Haq"]
 Array.push(pushArray)
 
 console.log(Array)
+
+// we do not have to set the array equal to the array.push because it automatically does this
+// pushing function appends item to the end of the array, this is similar to a queue data structure

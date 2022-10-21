@@ -7,4 +7,4 @@ MyArray.pop()
 console.log(MyArray)
 
 //when using the pop function, you do not have to automatically specify the end most item in the array. it will automatically remove the last item in the array for you
-
+//This can be used in a stack data structure
