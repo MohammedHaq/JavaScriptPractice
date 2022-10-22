@@ -19,8 +19,12 @@ console.log(MyArray)
 var MyArray3 = []
 var k = 10;
 
-while (k < 5) {
+do {
     MyArray3.push(k)
+    k++
+}
+while (k < 5) {
+    // do something else
 }
 
 console.log(MyArray3)

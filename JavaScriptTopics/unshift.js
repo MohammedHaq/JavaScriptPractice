@@ -7,3 +7,4 @@ MyArray.unshift(1);
 
 console.log(MyArray);
 
+//with the unshift function, you must specify what you want to add to the beginning of the array
