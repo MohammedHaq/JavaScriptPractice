@@ -1,0 +1,33 @@
+
+-----------------------------
+DOM - Document Object Model
+-----------------------------
+
+a Document object model describes the way you use JavaScript to interact with your website
+
+The HTML document acts as a JavaScript object when being used in JavaScript
+
+for example, the real thing is the line that says the <h2>....
+whereas the model is document.getElementById("...")
+
+the document object model in JavaScript has many already in-built functions that allow it to interact, modify, create, and delete data on a website page.
+
+
+
+
+
+
+-----------------------------
+Higher Order Functions / Otjer functions
+-----------------------------
+
+functions to review: map(), reduce(), filter(), some(), apply()
+
+map () ->  the map array function returns a new array that applies an operation onto each item of the array. The function takes parameters: map(function(item))
+
+reduce () -> the reduce array function returns a new array with all the items in the original arr a y that meet a certain conditioon. the function takes parameters: reduce(function(item))
+
+filter () -> the filter array function returns a value that is the sum of all the integers in the original array. you can chose to have a starting value or not with the sum. if no starting value is chosen, the first item in the array is chosen as the starting value. if there is a starting value chosen it is given as a parameter. the parameter of the function is written as: reduce(function(result, item),numbertostartwith)
+
+some () -> the some array function returns true or false based on whether there is an item in the array that meets a certain condition. the function takes parameters: some(function(item))
+
